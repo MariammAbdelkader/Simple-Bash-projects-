@@ -48,3 +48,26 @@ Your generated password is: a7c93e2bfae4
 - Piping (|) and text trimming using head 
 - Echo command for displaying output 
 - File permissions (`chmod +x`)
+
+---
+
+## ⏰ Project 3: Digital Clock
+
+### 📖 Overview
+This Bash script displays a real-time digital clock that updates every second directly in the terminal.
+It’s a fun and simple project to understand infinite loops, screen refreshing, and time formatting in Bash.
+
+### ⚙️ How It Works
+- The script runs inside an infinite while loop.  
+- It clears the screen using clear before displaying the updated time.
+- The date command with the format +%H:%M:%S prints the current time in hours, minutes, and seconds.
+- The sleep 1 command pauses for one second between updates.
+
+### 💡 Concepts Used
+- Infinite loops (while true)
+- The clear command for screen refresh
+- The date command with time formatting
+- sleep command for timed delays
+- File permissions (`chmod +x`)
+
+---
