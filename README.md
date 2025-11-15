@@ -71,3 +71,23 @@ It’s a fun and simple project to understand infinite loops, screen refreshing,
 - File permissions (`chmod +x`)
 
 ---
+
+## 🛠️ Project 4: System Maintenance Script
+
+### 📖 Overview
+This Bash script automates basic system maintenance tasks on Debian/Ubuntu-based systems.
+It updates the package list, upgrades installed packages, removes unnecessary packages, and cleans cached files.
+It’s a beginner-friendly project to help you practice package management and automation in Bash.
+
+### ⚙️ How It Works
+- The script runs `apt-get update` to refresh the list of available packages.
+- It runs `apt-get upgrade` to install the latest versions of all installed packages.
+- It runs `apt-get autoremove` to remove unused dependencies and unnecessary packages.
+- Finally, it runs `apt-get clean` to delete cached package files and free up disk space.
+  
+### 💡 Concepts Used
+- Package management (`apt-get update`, `upgrade`, `autoremove`, `clean`)
+- Automation with Bash scripting
+- File permissions (`chmod +x`)
+- Use of sudo for administrative tasks
+---
