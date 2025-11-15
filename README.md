@@ -91,3 +91,26 @@ It’s a beginner-friendly project to help you practice package management and a
 - File permissions (`chmod +x`)
 - Use of sudo for administrative tasks
 ---
+
+## 📊 Project 5: System Log Error Counter
+
+### 📖 Overview
+This Bash script reads the system log file (`/var/log/syslog`) and counts the number of lines that contain the word “error” (case-insensitive).
+It’s designed to help you practice file handling, searching, and counting text in Bash scripts.
+
+### ⚙️ How It Works
+- The script first checks if the log file exists.
+- It uses `grep -i` "error" to find all lines containing “error” (case-insensitive).
+- It pipes the results to `wc -l` to count the number of matching lines.
+- Finally, it prints the total count of error lines.
+  
+### 💡 Concepts Used
+- File existence check (`[ -f ... ]`)
+- Text searching with `grep`
+- Case-insensitive search with `-i`
+- Counting lines with `wc -l`
+- Variables and command substitution in Bash
+- Conditional statements (if)
+
+---
+
