@@ -114,3 +114,23 @@ It’s designed to help you practice file handling, searching, and counting text
 
 ---
 
+## 🔐 Project 6: Root User Checker
+
+### 📖 Overview
+This Bash script checks whether the current user running the script is root or a normal user.
+It’s a simple and useful project for learning about user privileges, the `$UID` variable, and conditional statements in Bash.
+
+### ⚙️ How It Works
+- The script reads the value of the special Bash variable `$UID`.
+- If `$UID` equals 0, the user is root.
+- If not, the user is a normal (non-root) user.
+- The script prints a message based on the user’s privilege level.
+  
+### 💡 Concepts Used
+- Special variable `$UID`
+- Conditional statements (`if`, `then`, `else`)
+- Comparison operator `-eq`
+- Echo command for output
+- Basic system privilege understanding
+---
+
