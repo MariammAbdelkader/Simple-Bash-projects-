@@ -133,4 +133,27 @@ It’s a simple and useful project for learning about user privileges, the `$UID
 - Echo command for output
 - Basic system privilege understanding
 ---
+## 📦 Project 7: Package Installer Script
 
+### 📖 Overview
+This Bash script automatically installs a predefined list of packages on a Linux system.
+It checks whether the script is executed by the root user, displays colored output for clarity, and installs multiple packages using a loop.
+This project helps you practice color formatting, loops, arrays, privilege checks, and package installation in Bash.
+
+### ⚙️ How It Works
+- Defines color variables for styled terminal output.
+- Checks if the current user is root using $UID.
+- Stores a list of packages (`figlet`, `sl`, `net-tools`) inside a Bash array.
+- Loops through the array and installs each package using `apt install`.
+- Suppresses installation output for cleaner logs using &>/dev/null.
+- Prints clear “Installing…” and “Completed…” messages using colored text.
+  
+### 💡 Concepts Used
+- Bash arrays
+- for loops
+- Package installation using apt
+- Root user check using `$UID`
+- Colored terminal output with ANSI escape codes
+- Redirecting output (`&>/dev/null`)
+- Conditional exit with `exit 1`
+---
